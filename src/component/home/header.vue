@@ -1,15 +1,20 @@
 <template>
-  <section>
-      <p>这是头部</p>
-  </section>
+  <header class="header">
+    <mt-header fixed title="微商城"></mt-header>
+    <div></div>
+  </header>
 </template>
 <script>
 export default {
   
 }
 </script>
-<style>
-    
+<style lang="less">
+    .header {
+      div {
+        height: 40px;
+      }
+    }
 </style>
 
 
