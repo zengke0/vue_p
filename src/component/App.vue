@@ -1,6 +1,7 @@
 <template>
     <section>
         <v-header></v-header>
+        <lg-preview></lg-preview>
         <router-view></router-view>
         <v-footer></v-footer>
     </section>
@@ -18,5 +19,5 @@ export default {
 }
 </script>
 <style>
-    @import url("../style/index.less");
+
 </style>
